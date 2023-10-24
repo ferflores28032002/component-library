@@ -8,4 +8,4 @@ export interface CustomCheckboxProps {
   onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
 }
 
-export type size = "md" | "lg";
+export type size = "sm" | "md" | "lg";

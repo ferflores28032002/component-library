@@ -4,14 +4,16 @@ import { Icon } from "@chakra-ui/react";
 
 import { IconCheck } from "../../../../../src/assets/customIcons";
 
+import { sizesIconCheckbox } from "../../utils/sizes.checkBox";
+
 import { CheckIconProps } from "../../interfaces/CheckIcon.interface";
 
-const CheckIcon = memo(({ isChecked }: CheckIconProps) => {
+const CheckIcon = memo(({ isChecked, size }: CheckIconProps) => {
   return (
     <Icon
       as={IconCheck}
-      width="14px"
-      height="14px"
+      width={sizesIconCheckbox[size].width}
+      height={sizesIconCheckbox[size].height}
       _dark={{ color: isChecked ? "" : "transparent" }}
     />
   );

@@ -23,7 +23,7 @@ export const checkbox: Story = {
   },
   argTypes: {
     size: {
-      options: ["md", "lg"],
+      options: ["sm", "md", "lg"],
       control: { type: "select" },
     },
     onChange: { action: "changed" },
