@@ -76,6 +76,7 @@ import { ReactComponent as IconUnsplash } from "./icons/icoUnsplash.svg";
 import { ReactComponent as IconUser } from "./icons/icoUser.svg";
 import { ReactComponent as IconVimeo } from "./icons/icoVimeo.svg";
 import { ReactComponent as IconYoutube } from "./icons/icoYoutube.svg";
+import { ReactComponent as IconUrl } from "./icons/link-solid.svg";
 import { ReactComponent as IconPathCourse } from "./icons/pathSkeletonCourse.svg";
 import { ReactComponent as IconPathExpress } from "./icons/pathSkeletonExpress.svg";
 import { ReactComponent as IconPathInstagram } from "./icons/pathSkeletonInstagram.svg";
@@ -181,6 +182,7 @@ export {
   IconTwitter,
   IconUncropped,
   IconUnsplash,
+  IconUrl,
   IconUser,
   IconVideo,
   IconVimeo,
