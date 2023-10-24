@@ -34,7 +34,7 @@ export default {
     commonjs(),
     typescript({ useTsconfigDeclarationDir: true }),
     terser(),
-    svg(),
+    svg({}),
     svgr({ exportType: "named", jsxRuntime: "automatic" }),
   ],
 };

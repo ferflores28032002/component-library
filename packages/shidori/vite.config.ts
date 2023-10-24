@@ -1,11 +1,12 @@
 /// <reference types="vite/client" />
 
+import svgr from "@svgr/rollup";
 import react from "@vitejs/plugin-react";
 import path from "node:path";
 import { defineConfig } from "vite";
 import dts from "vite-plugin-dts";
-import svgr from "vite-plugin-svgr";
 
+// se cambio el vite-plugins-svgr a @svgr/rollup
 export default defineConfig({
   plugins: [
     react(),
