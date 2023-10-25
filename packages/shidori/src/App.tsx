@@ -5,6 +5,7 @@ import { ChakraProvider, ThemeProvider } from "@chakra-ui/react";
 import "@fontsource/roboto";
 
 import "./styles/cssReset";
+
 import { theme } from "./theme";
 
 function App({ children }: { children: any }) {
